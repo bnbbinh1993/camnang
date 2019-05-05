@@ -1,0 +1,33 @@
+package com.bnb.binh.kimtinnsng.cactab;
+
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.bnb.binh.kimtinnsng.R;
+
+
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class Tab_Four extends Fragment {
+
+    private View mRootView;
+
+    public Tab_Four() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        mRootView = inflater.inflate(R.layout.fragment_tab__four, container, false);
+        return  mRootView;
+    }
+
+}

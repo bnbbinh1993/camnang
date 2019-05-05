@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        tools:ignore="RtlCompat">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/login_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/avtaog" />
+
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/login_image"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/input"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:hint="Email..."
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+
+                />
+
+            <EditText
+                android:id="@+id/login_key"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/login_email"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/input"
+                android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+                android:hint="Password..."
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                tools:ignore="HardcodedText" />
+
+
+            <Button
+
+                android:id="@+id/login_buttons"
+                android:layout_below="@+id/login_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="19dp"
+                android:text="Login Admin"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_light"
+                android:background="#f00"
+                tools:ignore="HardcodedText" />
+
+          <!--<TextView-->
+                <!--android:id="@+id/need_new_account_link"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/login_buttons"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="Need new account?"-->
+                <!--android:textAlignment="center"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="17dp"-->
+                <!--android:layout_marginRight="17dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--tools:ignore="HardcodedText" />-->
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

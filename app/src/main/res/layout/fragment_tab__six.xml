@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cactab.Tab_Six">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@drawable/input"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:text="Fanpage Admin"
+            android:id="@+id/fanpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/input"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:text="Tham Gia Gruop AOG Để Chém Gió"
+            android:id="@+id/gruop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="@drawable/input"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:text="Kênh Youtube Admin"
+            android:id="@+id/youtuber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/input"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:text="Tài trợ và Quảng cáo"
+            android:id="@+id/taitrovaquangcao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:background="@drawable/input"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:text="QTV (Admin)"
+            android:id="@+id/adminqtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
